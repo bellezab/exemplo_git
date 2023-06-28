@@ -14,7 +14,7 @@ while(True):
     elif op == 2:
         print(f"{n}-{m} = {n-m}")
     elif op == 3:
-        pass
+        print(f"{n}*{m} = {n*m}") 
     else:
         pass
 print("até logo")
