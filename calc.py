@@ -1,5 +1,5 @@
 while(True):
-    print:("1. Somar", "2.subtrair", "3.multiplicar", "4. dividir", "5. sair", sep="\n\")
+    print ("1. Somar", "2.subtrair", "3.multiplicar", "4. dividir", "5. sair", sep="\n")
     op = int(input("escolha uma opção: "))
     if op<1 or op>5:
         print("opção inválida")
@@ -10,9 +10,9 @@ while(True):
     m = int(input("digite o segundo número: "))
 
     if op == 1:
-        print(f "{n}+{m} = {n+m}")
+        print(f"{n}+{m} = {n+m}")
     elif op == 2:
-        print(f "{n}-{m} = {n-m}")
+        print(f"{n}-{m} = {n-m}")
     elif op == 3:
         pass
     else:
