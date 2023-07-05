@@ -1,5 +1,5 @@
 while(True):
-    print ("1. Somar", "2.subtrair", "3.multiplicar", "4. dividir", "5. sair", sep="\n")
+    print ("1. Somar", "2. Subtrair", "3. Multiplicar", "4. Dividir", "5. sair", sep="\n")
     op = int(input("escolha uma opção: "))
     if op<1 or op>5:
         print("opção inválida")
